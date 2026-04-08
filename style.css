@@ -43,7 +43,7 @@
             display: block;
             margin: 0 auto;
             border-radius: 50%;
-            border: 2px outset rgb(0, 0, 0);
+            border: 4px outset rgb(0, 126, 105);
             box-shadow: 0 0 15px rgba(0,0,0,0.4);
         }
 
@@ -64,7 +64,7 @@
         .redes a {
             text-decoration: none;
             color: white;
-            background: #382b68;
+            background: #1e9c87;
             padding: 10px 15px;
             margin: 5px;
             border-radius: 5px;
@@ -74,7 +74,7 @@
 
         .redes a:hover {
             transform: scale(1.10);
-            background: #19003d;
+            background: #0c5852;
         }
 
 /*ANIMAÇÃO*/
@@ -98,12 +98,12 @@
 
 .container:hover {
     transform: translateY(-45px);
-    box-shadow: 0 10px 15px rgba(106, 0, 245, 0.418);
+    box-shadow: 0 10px 15px rgba(0, 245, 143, 0.418);
 }
 
 .container2:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 15px rgba(106, 0, 245, 0.418);
+    box-shadow: 0 10px 15px rgba(0, 245, 143, 0.418);
     transform: scale(0.87);
 }
 
@@ -116,3 +116,22 @@
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
+/*ADAPTAÇÃO PARA MOBILE*/
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
